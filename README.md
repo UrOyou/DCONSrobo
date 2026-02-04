@@ -21,3 +21,5 @@
 - 原理图和pcb https://github.com/makerbase-mks/MKS-SERVO42C
 - 使用教程  https://space.bilibili.com/393688975?from=search&seid=8715871633930712296
 - 上位机下载 q群 948665794
+
+修正上交
