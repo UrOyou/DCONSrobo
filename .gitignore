@@ -18,3 +18,6 @@ out/
 
 # 模板运行配置
 .idea/runConfigurations/Template_*.xml
+#.gitignore插件生成
+!/cmakeled/.idea/
+!/cmakeled/build/
