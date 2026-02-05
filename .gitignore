@@ -1,0 +1,20 @@
+# 编译输出
+build/
+cmake-build-*/
+out/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+
+# CLion 项目配置（用户特定，不共享）
+.idea/
+*.iml
+*.iws
+
+# 用户特定的运行配置
+.idea/runConfigurations/
+
+# 模板运行配置
+.idea/runConfigurations/Template_*.xml
