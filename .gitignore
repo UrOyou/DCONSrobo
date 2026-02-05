@@ -19,6 +19,7 @@ out/
 # 模板运行配置
 .idea/runConfigurations/Template_*.xml
 
+#插件生成模板
 ### C++ template
 # Prerequisites
 *.d
@@ -129,3 +130,6 @@ CMakeUserPresets.json
 *.iml
 out
 gen
+!/cmakeled/build/
+
+!/cmakeled/.idea/
