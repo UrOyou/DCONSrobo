@@ -1,12 +1,20 @@
-- author:youg
-- Encodingformat:UTF-8
+- author : youg :)
+- Encodingformat : UTF-8
 
 
 
-这里是服务消杀机器人的电控代码文件  
-主要烧录在一块上层stm32控制板当中
-### 这是clion-led分支 用以测试clion编写标准代码框架的情况
+这里是服务消杀机器人的相关文件  
+- 使用 ： MKS SERVO28D和42D 驱动板和28步进电机和42步进电机 
 
+- 主控：stm32f429igtx 正点原子阿波罗
+
+
+## 硬件选型相关资料
+drawio文件中包含相关的选型的型号和连接方式
+
+
+## 相关代码（等待后续补充）
+电机驱动详见 mks_stepmotor_stm32f4（等待完善）
 ### 用户代码user_code下列文件夹内容说明：
 - algorithm 算法模块
 - application freeRTOS进程编辑
@@ -24,8 +32,3 @@
 - 使用教程  https://space.bilibili.com/393688975?from=search&seid=8715871633930712296
 - 上位机下载 q群 948665794
 
-### clion 使用相关
-#### git配置
-在clion提交之后还是需要github desktop上传
-#### cmake
-文件移动之后cmake可能会出现报错，解决方法：删除cmake编译构造的文件夹， 重新配置cmake（不确定具体步骤需要补充实际情况）
